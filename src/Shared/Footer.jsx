@@ -20,15 +20,6 @@ const Footer = () => {
                     <a className="link link-hover">Rooftops</a>
                     <a className="link link-hover">Cold Heat Splits</a>
                 </nav>
-                
-               
-
-
-
-
-
-
-
 
                 <nav>
                     <header className="footer-title">Company</header>
@@ -45,10 +36,10 @@ const Footer = () => {
                 </nav>
             </footer>
             <footer className="footer footer-center p-4 bg-base-300 text-base-content">
-  <aside>
-    <p>Copyright © 2023 - All right reserved by @badhon</p>
-  </aside>
-</footer>
+                <aside>
+                    <p>Copyright © 2023 - All right reserved by @badhon</p>
+                </aside>
+            </footer>
         </div>
     );
 };

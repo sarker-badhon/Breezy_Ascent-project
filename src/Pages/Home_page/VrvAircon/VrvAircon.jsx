@@ -1,6 +1,6 @@
 const VrvAircon = () => {
     return (
-      <div className="my-10 relative">
+      <div className="my-10 md:mx-20 relative">
         <div
           style={{
             backgroundImage:

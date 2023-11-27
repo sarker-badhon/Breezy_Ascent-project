@@ -4,6 +4,7 @@ import OpportunitiesProduct from "../OpportunitiesProduct/OpportunitiesProduct";
 import ProfesionalSec from "../ProfesionalSec/ProfesionalSec";
 import TriangularSolar from "../TriangularSolar/TriangularSolar";
 import VrvAircon from "../VrvAircon/VrvAircon";
+import LatestTrends from "../LatestTrends/LatestTrends";
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
             <ProfesionalSec></ProfesionalSec>
             <TriangularSolar></TriangularSolar>
             <VrvAircon></VrvAircon>
+            <LatestTrends></LatestTrends>
         </div>
     );
 };
