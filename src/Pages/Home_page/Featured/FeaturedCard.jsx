@@ -15,7 +15,7 @@ const FeaturedCard = ({ image, title, description }) => {
         <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-6 transform scale-100 hover:scale-105 transition-transform duration-300 ease-in-out">
           <div className="mb-2 text-3xl font-semibold text-white">{title}</div>
           
-          <button className="px-2 text-white border">Read more...</button>
+          <button className="px-2 text-white border">Read more....</button>
         </div>
       </div>
     </div>
