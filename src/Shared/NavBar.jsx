@@ -12,18 +12,24 @@ const NavBar = () => {
                     <li tabIndex={0}>
                         <details>
                             <summary>Products</summary>
-                            <ul className="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
+                            <ul className="p-2 w-52 z-50">
+                            <li><a>EcoSun Tech Modules</a></li>
+                                <li><a>SunSwift EcoCells</a></li>
+                                <li><a>SolarZen Modules</a></li>
+                                <li><a>RadiantRay Solar Panels</a></li>
+                                <li><a>SunSwift EcoCells</a></li>
                             </ul>
                         </details>
                     </li>
                     <li tabIndex={0}>
                         <details>
                             <summary>Services</summary>
-                            <ul className="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
+                            <ul className="p-2  w-44 z-50">
+                                <li><a>EcoSun Tech Modules</a></li>
+                                <li><a>SunSwift EcoCells</a></li>
+                                <li><a>SolarZen Modules</a></li>
+                                <li><a>RadiantRay Solar Panels</a></li>
+                                <li><a>SunSwift EcoCells</a></li>
                             </ul>
                         </details>
                     </li>
@@ -44,7 +50,8 @@ const NavBar = () => {
 
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">BreezyAscent</a>
+                <li className="btn btn-ghost text-xl"><Link to="/">BreezyAscent</Link></li>
+                
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

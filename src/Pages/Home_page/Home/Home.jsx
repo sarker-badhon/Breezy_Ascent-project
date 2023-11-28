@@ -5,6 +5,7 @@ import ProfesionalSec from "../ProfesionalSec/ProfesionalSec";
 import TriangularSolar from "../TriangularSolar/TriangularSolar";
 import VrvAircon from "../VrvAircon/VrvAircon";
 import LatestTrends from "../LatestTrends/LatestTrends";
+import GoogleMap from "../GoogleMap/GoogleMap";
 
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
             <TriangularSolar></TriangularSolar>
             <VrvAircon></VrvAircon>
             <LatestTrends></LatestTrends>
+            <GoogleMap></GoogleMap>
         </div>
     );
 };

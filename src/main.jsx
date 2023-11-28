@@ -10,6 +10,7 @@ import {
 import "./index.css";
 import Main from './LayOut/Main.jsx';
 import Home from './Pages/Home_page/Home/Home.jsx';
+import ContactPage from './Pages/Home_page/ContactPage/ContactPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -19,7 +20,11 @@ const router = createBrowserRouter([
       {
         path:"/",
       element:<Home></Home>
-    }
+    },
+      {
+        path:"/contacts",
+      element:<ContactPage></ContactPage>
+    },
     ]
   },
 ]);

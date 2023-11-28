@@ -18,7 +18,7 @@ const LatestTrends = () => {
                         <div className="w-44 rounded-full overflow-hidden">
                             <img
                                 className="w-full h-full object-cover"
-                                src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
+                                src="https://i.ibb.co/SKn7zfG/badhon.jpg"
                                 alt="Trend Image"
                             />
                         </div>
@@ -39,7 +39,7 @@ const LatestTrends = () => {
                         <div className="w-44 rounded-full overflow-hidden">
                             <img
                                 className="w-full h-full object-cover"
-                                src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
+                                src="https://i.ibb.co/R4BFF2k/pexels-photo-7860654.jpg"
                                 alt="Trend Image"
                             />
                         </div>
@@ -60,7 +60,7 @@ const LatestTrends = () => {
                         <div className="w-44 rounded-full overflow-hidden">
                             <img
                                 className="w-full h-full object-cover"
-                                src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
+                                src="https://i.ibb.co/jZqSPD1/istockphoto-155415624-612x612.jpg"
                                 alt="Trend Image"
                             />
                         </div>
@@ -81,7 +81,7 @@ const LatestTrends = () => {
                         <div className="w-44 rounded-full overflow-hidden">
                             <img
                                 className="w-full h-full object-cover"
-                                src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
+                                src="https://i.ibb.co/zNfstRC/1678900339162.jpg"
                                 alt="Trend Image"
                             />
                         </div>
