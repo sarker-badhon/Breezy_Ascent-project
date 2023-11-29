@@ -1,9 +1,10 @@
 import React from 'react';
+import 'aos/dist/aos.css';
 
 const LatestTrends = () => {
     return (
         <div className="mt-8 sm:mt-16 md:mt-24 lg:mt-32 mx-4 sm:mx-8 md:mx-12 lg:mx-20">
-            <div className="mb-24 md:mb-24">
+            <div data-aos="fade-down"  className="mb-24 md:mb-24">
                 <h1 className="text-xl sm:text-3xl md:text-2xl lg:text-4xl font-semibold ">
                     Latest trends for the perfect climate
                 </h1>
@@ -13,7 +14,8 @@ const LatestTrends = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-8 md:gap-12 lg:gap-16 mt">
                 
 
-                <div className="w-full sm:w-96 lg:w-72 border rounded-t-full bg-base-100 shadow-xl mb-16">
+                <div data-aos="fade-down-right"
+                className="w-full sm:w-96 lg:w-72 border rounded-t-full bg-base-100 shadow-xl mb-16">
                     <div className="avatar -mt-16 flex justify-center">
                         <div className="w-44 rounded-full overflow-hidden">
                             <img
@@ -34,7 +36,7 @@ const LatestTrends = () => {
                     </div>
                 </div>
 
-                <div className="w-full sm:w-96 lg:w-72 border rounded-t-full bg-base-100 shadow-xl mb-16">
+                <div data-aos="fade-down-right" className="w-full sm:w-96 lg:w-72 border rounded-t-full bg-base-100 shadow-xl mb-16">
                     <div className="avatar -mt-16 flex justify-center">
                         <div className="w-44 rounded-full overflow-hidden">
                             <img
@@ -55,7 +57,7 @@ const LatestTrends = () => {
                     </div>
                 </div>
 
-                <div className="w-full sm:w-96 lg:w-72 border rounded-t-full bg-base-100 shadow-xl mb-16">
+                <div data-aos="fade-down-right" className="w-full sm:w-96 lg:w-72 border rounded-t-full bg-base-100 shadow-xl mb-16">
                     <div className="avatar -mt-16 flex justify-center">
                         <div className="w-44 rounded-full overflow-hidden">
                             <img
@@ -76,7 +78,7 @@ const LatestTrends = () => {
                     </div>
                 </div>
 
-                <div className="w-full sm:w-96 lg:w-72 border rounded-t-full bg-base-100 shadow-xl mb-16">
+                <div data-aos="fade-down-right" className="w-full sm:w-96 lg:w-72 border rounded-t-full bg-base-100 shadow-xl mb-16">
                     <div className="avatar -mt-16 flex justify-center">
                         <div className="w-44 rounded-full overflow-hidden">
                             <img

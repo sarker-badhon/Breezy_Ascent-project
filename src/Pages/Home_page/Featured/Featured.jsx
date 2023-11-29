@@ -24,7 +24,7 @@ const Featured = () => {
   ];
 
   return (
-    <div className="flex flex-wrap justify-center">
+    <div className="flex flex-wrap justify-center " data-aos="fade-right">
       {data.map((card, index) => (
         <FeaturedCard key={index} {...card} />
       ))}

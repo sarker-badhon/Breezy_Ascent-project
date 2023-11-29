@@ -11,12 +11,12 @@ const ContactPage = () => {
         <div className="object-contain hover:object-scale-down bg-cover bg-center" style={backgroundStyle}>
             <div className="min-h-screen flex items-center justify-center">
                 <div className="card glass w-96 p-8 shadow-md rounded-md">
-                    <h2 className="text-2xl text-black text-center font-semibold mb-6">Contact Us</h2>
+                    <h2 className="text-2xl text-white text-center font-semibold mb-6">Contact Us</h2>
                     <p className="border-2 mb-2"></p>
 
                     <form>
                         <div className="mb-4">
-                            <label htmlFor="name" className="block text-sm font-medium text-black mb-1">
+                            <label htmlFor="name" className="block text-sm font-medium text-white mb-1">
                                 Name
                             </label>
                             <input
@@ -29,7 +29,7 @@ const ContactPage = () => {
                         </div>
 
                         <div className="mb-4">
-                            <label htmlFor="email" className="block text-sm font-medium text-black mb-1">
+                            <label htmlFor="email" className="block text-sm font-medium text-white mb-1">
                                 Email
                             </label>
                             <input
@@ -42,7 +42,7 @@ const ContactPage = () => {
                         </div>
 
                         <div className="mb-4">
-                            <label htmlFor="message" className="block text-sm font-medium text-black mb-1">
+                            <label htmlFor="message" className="block text-sm font-medium text-white mb-1">
                                 Message
                             </label>
                             <textarea

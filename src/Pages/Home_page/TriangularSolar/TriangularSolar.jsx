@@ -1,11 +1,16 @@
-import React from 'react';
 
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const TriangularSolar = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mx-4 md:mx-8 lg:mx-20">
+    <div data-aos="fade-up"  className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mx-4 md:mx-8 lg:mx-20">
       <div className="ml-0 md:ml-8">
         <img className="w-full h-auto md:h-72" src="https://i.ibb.co/2PW8Gvj/aelios.jpg" alt="" />
-      </div>
+      </div> 
       <div className="md:ml-0">
         <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold mb-2 md:mb-4 lg:mb-4">Triangular solar tanker</h1>
         <p className="font-semibold text-lg md:text-xl lg:text-xl mb-2 md:mb-4 lg:mb-4">Vacuum tube technology</p>
